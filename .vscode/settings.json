@@ -1,0 +1,7 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.pythonPath": "C:\\Python\\venv\\bc\\Scripts\\python.exe",
+    "python.formatting.provider": "yapf"
+}
