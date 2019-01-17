@@ -1,0 +1,22 @@
+### Send POST request with json body
+POST http://localhost:5000/transactions/new
+Content-Type: application/json
+
+{
+  "sender": "d4ee26eee15148ee92c6cd394edd974e",
+  "recipient": "8bbcb347e0634905b0cac7955bae152b",
+  "amount": 9
+}
+
+
+### Get request with a header
+GET http://localhost:5000/chain
+Accept: application/json
+
+<> 2019-01-12T115635.200.json
+
+### Mine a block
+GET http://localhost:5000/mine
+Accept: application/json
+
+###
